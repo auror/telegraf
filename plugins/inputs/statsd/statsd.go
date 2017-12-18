@@ -55,7 +55,7 @@ type Statsd struct {
 
 	// Percentiles specifies the percentiles that will be calculated for timing
 	// and histogram stats.
-	Percentiles     []int
+	Percentiles     []float64
 	PercentileLimit int
 
 	DeleteGauges   bool
